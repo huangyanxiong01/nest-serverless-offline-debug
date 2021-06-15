@@ -18,7 +18,8 @@ To simulate the app running on Lambda locally, run the following:
 $ npm run sls:offline
 ```
 
-The application will be available at `http://localhost:3000/dev/hello`.
+The application will be available at `http://localhost:3000/dev/graphql`.
+> note: if you first open graphql playground. You must change playground url from http://localhost:3000/graphql to http://localhost:3000/dev/graphql
 
 ## Deployment the app
 
